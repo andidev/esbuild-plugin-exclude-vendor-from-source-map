@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-export const excludeVendorFromSourceMap = () => {
+const excludeVendorFromSourceMap = () => {
     return {
         name: 'excludeVendorFromSourceMap',
         setup(build) {
