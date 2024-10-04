@@ -12,7 +12,7 @@ npm i --save-dev esbuild-plugin-exclude-vendor-from-source-map
 
 ```javascript
 import esbuild from 'esbuild';
-import excludeVendorFromSourceMapPlugin from 'esbuild-plugin-exclude-vendor-from-source-map';
+import { excludeVendorFromSourceMap } from 'esbuild-plugin-exclude-vendor-from-source-map';
 
 esbuild.build({
     entryPoints: ['./src/index.js'],
@@ -21,7 +21,7 @@ esbuild.build({
     minify: true,
     sourcemap: true,
     plugins: [
-        excludeVendorFromSourceMapPlugin(),
+        excludeVendorFromSourceMap(),
     ],
 });
 ```

@@ -1,8 +1,8 @@
-import fs from 'fs';
+const fs = require('fs');
 
-export default () => {
+export const excludeVendorFromSourceMap = () => {
     return {
-        name: 'exclude-vendor-from-source-map',
+        name: 'excludeVendorFromSourceMap',
         setup(build) {
             //ignore source map for vendor files
             const sourceMapExcludeSuffix = '\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIiJdLCJtYXBwaW5ncyI6IkEifQ==';
@@ -15,3 +15,7 @@ export default () => {
         },
     };
 }
+
+module.exports = {
+    excludeVendorFromSourceMap,
+};
