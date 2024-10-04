@@ -1,0 +1,25 @@
+{
+    "name": "esbuild-plugin-exclude-vendor-from-source-map",
+    "version": "0.0.1",
+    "description": "An ESBuild Plugin to Exclude Vendor From Source Map",
+    "main": "./src/index.js",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andidev/esbuild-plugin-exclude-vendor-from-source-map.git"
+    },
+    "author": "Unknown",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/andidev/esbuild-plugin-exclude-vendor-from-source-map/issues"
+    },
+    "files": [
+        "/src/*"
+    ],
+    "homepage": "https://github.com/andidev/esbuild-plugin-exclude-vendor-from-source-map#readme",
+    "keywords": [
+        "esbuild",
+        "plugin",
+        "sourcemap"
+    ]
+}
