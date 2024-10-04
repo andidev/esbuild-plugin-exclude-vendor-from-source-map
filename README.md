@@ -26,4 +26,4 @@ esbuild.build({
 });
 ```
 
-Original authors are ESBuild @evanw and this blog post [Speedrun Blog - Optimizing lambda coldstarts](https://speedrun.nobackspacecrew.com/blog/2023/09/23/optimizing-lambda-coldstarts.html#removing-sources-content-and-json-from-sourcemaps
+Original authors are ESBuild @evanw and this blog post [Speedrun Blog - Optimizing lambda coldstarts](https://speedrun.nobackspacecrew.com/blog/2023/09/23/optimizing-lambda-coldstarts.html#removing-sources-content-and-json-from-sourcemaps)
